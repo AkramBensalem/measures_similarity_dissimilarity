@@ -1,10 +1,10 @@
 ##  Measures of Similarity/Dissimilarity
-A measure of similarity $s: \mathcal{X} × \mathcal{X} → \mathbb{R}$or of dissimilarity is introduced.
-One type of dissimilarity measure is the distance function $d: \mathcal{X} × \mathcal{X} → \mathbb{R}_{\geq 0}$, which must satisfy the following properties:
-1. **Symmetry**: $d(x, y) = d(y, x) $
-2. **Non-Negativity**: $d(x, x) ≥ 0 $
-3. **Reflexivity**: $d(x, y) = 0 $if and only if $x = y $
-4. **Triangle inequality**: $d(x, y) ≤ d(x, z) + d(z, y) $
+A measure of similarity $s: \mathcal{X} × \mathcal{X} → \mathbb{R}$ or of dissimilarity is introduced.
+One type of dissimilarity measure is the distance function $d: \mathcal{X} × \mathcal{X} → \mathbb{R}_{\geq 0}$ , which must satisfy the following properties:
+1. **Symmetry**: $d(x, y) = d(y, x)$
+2. **Non-Negativity**: $d(x, x) ≥ 0$
+3. **Reflexivity**: $d(x, y) = 0 $if and only if $x = y$
+4. **Triangle inequality**: $d(x, y) ≤ d(x, z) + d(z, y)$
 
 Dissimilarity measures can vary based on the properties they satisfy:
 - ***Pseudo-distance***: satisfies all properties of a distance function except reflexivity.
