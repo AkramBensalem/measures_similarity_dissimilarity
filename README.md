@@ -3,7 +3,7 @@ A measure of similarity $s: \mathcal{X} × \mathcal{X} → \mathbb{R}$ or of dis
 One type of dissimilarity measure is the distance function $d: \mathcal{X} × \mathcal{X} → \mathbb{R}_{\geq 0}$ , which must satisfy the following properties:
 1. **Symmetry**: $d(x, y) = d(y, x)$
 2. **Non-Negativity**: $d(x, x) ≥ 0$
-3. **Reflexivity**: $d(x, y) = 0 $if and only if $x = y$
+3. **Reflexivity**: $d(x, y) = 0$ if and only if $x = y$
 4. **Triangle inequality**: $d(x, y) ≤ d(x, z) + d(z, y)$
 
 Dissimilarity measures can vary based on the properties they satisfy:
@@ -11,8 +11,8 @@ Dissimilarity measures can vary based on the properties they satisfy:
 - ***Meta-distance***: satisfies all properties of a distance function except reflexivity and symmetry.
 - ***Semi-metric***: satisfies all properties of a distance function except symmetry.
 
-It is more convenient to operate with the normalised similarity measure $s: \mathcal{X} × \mathcal{X} → [0, 1] $, which is defined as:
-$$s(x, y) = 1 - d(x, y) $$
+It is more convenient to operate with the normalised similarity measure $s: \mathcal{X} × \mathcal{X} → [0, 1]$ , which is defined as:
+$$s(x, y) = 1 - d(x, y)$$
 
 ### Comparing the Objects Having Quantitative Features
 The most popular measures of dissimilarity to compare objects with quantitative features are:
