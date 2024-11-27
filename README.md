@@ -1,5 +1,5 @@
 ##  Measures of Similarity/Dissimilarity
-A measure of similarity \$ s: \mathcal{X} × \mathcal{X} → \mathbb{R} \$ or of dissimilarity is introduced.
+A measure of similarity $s: \mathcal{X} × \mathcal{X} → \mathbb{R}$ or of dissimilarity is introduced.
 One type of dissimilarity measure is the distance function $ d: \mathcal{X} × \mathcal{X} → \mathbb{R}_{\geq 0} $, which must satisfy the following properties:
 1. **Symmetry**: $ d(x, y) = d(y, x) $
 2. **Non-Negativity**: $ d(x, x) ≥ 0 $
