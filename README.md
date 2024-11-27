@@ -29,7 +29,7 @@ $$∀(x,y) \in \mathbb{R^2} \quad d(x, y) = (∑_{i=1}^{n} |x_i - y_i|^p)^{1/p},
 It is a multidimensional generalization of measuring how many standard deviations away a point is from the mean of a distribution.
 It is defined as:
 $$∀(x,y) \in \mathbb{R^2} \quad d(x, y) = \sqrt{(x - y)^T S^{-1} (x - y)}$$
-where $S $is the covariance matrix of the data.
+where $S$ is the covariance matrix of the data.
 The covariance matrix is a square matrix giving the covariance between each pair of elements of a random vector. The diagonal elements of the covariance matrix are the variances of each element of the vector, it's defined as:
 $$S = \frac{1}{n} ∑_{i=1}^{n} (x_i - \bar{x})(x_i - \bar{x})^T \quad \text{avec} \quad  \bar{x} = \frac{1}{n} ∑_{i=1}^{n} x_i$$
 3.  **Bregman Divergence** is a measure of dissimilarity between two points in a space. It is defined as:
